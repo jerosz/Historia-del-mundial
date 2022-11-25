@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  background-color: gold;
+}
+.navbar img {
+  height: 150px;
+}
+
+.navbar-nav .nav-item {
+  font-size: 20px;
+}
+
+footer {
+  background-color: gold;
+  padding: 20px;
+}
+footer h5 {
+  font-size: 25px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+footer img {
+  height: 30px;
+  margin: 5px;
+}
+
+footer h6 {
+  font-size: 15px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#galeria .col-lg-4 {
+  margin: 0;
+  padding: 25px;
+}
+
+#galeria img {
+  width: 100%;
+  height: 300px;
+}
+#galeria img:hover {
+  border: 5px solid white;
+}
+
+h1 {
+  margin: 10px;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 50px;
+  -webkit-animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
+
+@-webkit-keyframes tracking-in-contract {
+  0% {
+    letter-spacing: 1em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    letter-spacing: normal;
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-contract {
+  0% {
+    letter-spacing: 1em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    letter-spacing: normal;
+    opacity: 1;
+  }
+}
+body {
+  background: rgb(34, 193, 195);
+  background: linear-gradient(0deg, rgb(34, 193, 195) 0%, rgb(253, 187, 45) 100%);
+}
+
+.cardCamp {
+  transition: transform 0.3s;
+}
+.cardCamp:hover {
+  transform: scale(1.1);
+}
+
+.cardMerch {
+  margin: 50px;
+}
+
+/*# sourceMappingURL=style.css.map */
