@@ -22,6 +22,7 @@
       integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
 
   <body>
@@ -61,107 +62,35 @@
     </header>
 
     <main>
-      <div class="container text-center">
-        <h2>Mundiales en fotos</h2>
-      </div>
-
-      <div class="container">
-        <div
-          id="carouselExampleIndicators"
-          class="carousel slide"
-          data-bs-ride="true"
-        >
-          <div class="carousel-indicators">
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="0"
-              class="active"
-              aria-current="true"
-              aria-label="Slide 1"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="1"
-              aria-label="Slide 2"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="2"
-              aria-label="Slide 3"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="3"
-              aria-label="Slide 4"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="4"
-              aria-label="Slide 5"
-            ></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img
-                src="img/diego.jpg"
-                class="d-block w-100"
-                alt="Maradona levantando la copa"
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                src="img/cabezazo.jpg"
-                class="d-block w-100"
-                alt="Cabezazo de Zidane a Materazzi"
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                src="img/italia.jpg"
-                class="d-block w-100"
-                alt="Italia campeon 2006"
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                src="img/mundial1930.jpg"
-                class="d-block w-100"
-                alt="Estadio mundial 1930"
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                src="img/sudafrica.jpg"
-                class="d-block w-100"
-                alt="Gol Sudafrica 2010"
-              />
-            </div>
-          </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+      <section id="galeria" class="container">
+        <div class="text-center">
+          <h1>Mundiales en fotos</h1>
+          <p>Recordando momentos del evento deportivo más importante.</p>
         </div>
-      </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <img src="img/diego.jpg" alt="Diego Maradona festejando" />
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <img src="img/cabezazo.jpg" alt="Cabezazo de Zidane a Materazzi" />
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <img src="img/italia.jpg" alt="Italia campeón 2006" />
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <img
+              src="img/mundial1930.jpg"
+              alt="Estadio en el primer mundial de la historia"
+            />
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <img src="img/sudafrica.jpg" alt="Festejo de gol Sudáfrica 2010" />
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <img src="img/pele.png" alt="Pele festejando" />
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer>
